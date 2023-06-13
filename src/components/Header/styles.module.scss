@@ -1,0 +1,129 @@
+.container{
+    width: 100%;
+    height: 80px;
+    //height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(40, 40, 40, .5);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    z-index: 1;
+}
+.modal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(40, 40, 40, .5);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    z-index: 1;
+    transition: ease-in-out;
+}
+.modalNone{
+    display: none;
+}
+.modal .maxSize .divModal{
+    //border: 1px solid red;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+}
+.modal .maxSize .divModal ul li{
+    width: 80vw;
+    max-width: 400px;
+    height: 80px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF7C4D;
+    border-radius: 50px;
+}
+.modal .maxSize .divModal ul li a{
+    font-size: 30rem;
+    font-weight: 800;
+    color: white;
+}
+//.container 
+.maxSize{
+    width: 98%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    padding: 10px 10px 0 0;
+}
+//.container 
+.maxSize .divName{
+    background: #ff4500;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 0 0 16px 12px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    position: absolute;
+    left: 8px;
+    top: 0;
+    h2{
+        font-size: 30px;
+        color: white;
+        font-family: 'Comforter Brush', cursive;
+    }
+}
+.divMenu{
+    display: none;
+    align-items: center;
+    gap: 16px;
+    font-weight: 600;
+    .divFocus{
+        a{
+            font-size: 17rem;
+        }
+        .divBars{
+            width: 0%;
+            height: 4px;
+            background-color: #FF940D;
+        }
+    }
+    .divFocus:hover{
+        .divBars{
+            width: 100%;
+            transition: 0.5s;
+        }
+    }
+}
+.divMenu .btnLinkedin{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: #d5515e;
+    border-radius: 8px;
+    border: 1px solid #d5515e;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.divMenu .btnLinkedin:hover{
+    background: #d5515e;
+    outline: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+@media(min-width: 768px) {
+    //.container 
+    .maxSize{
+        align-items: center;
+    }
+    .divMenu{
+        display: flex;
+    }
+}

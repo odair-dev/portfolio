@@ -1,0 +1,12 @@
+//funções de padrão de estilo
+
+@mixin text-style-paragraph-1{
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin effect-style-shadow{
+    box-shadow: 0 5px 5px grey;
+}

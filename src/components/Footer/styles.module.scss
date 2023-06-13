@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container .maxSize{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #232323;
+}
+.container .maxSize h3{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.container .maxSize h2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}

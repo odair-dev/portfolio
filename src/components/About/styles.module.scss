@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: center; 
+    width: 100%;     
+    background: #FF7C4D; 
+}
+.container .textContainer{
+    width: 100%;
+    max-width: 1200px;
+    padding: 50rem 0 80rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container .textContainer article{
+    width: 90%;
+    text-align: justify;
+    line-height: 180%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18rem;
+    color: white;
+}
+.container .textContainer p{
+    position: absolute;
+    right: 4%;
+    bottom: 40rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 18rem;
+    color: white;
+}
+.container .textContainer a{
+    display: none;
+}
+@media(min-width: 400px) {
+    .container .textContainer{
+        padding: 100rem 0 140rem 0;
+        //padding: 140rem 0;
+    }
+    .container .textContainer article{
+        line-height: 200%;
+        font-size: 20rem;
+    }
+    .container .textContainer p{
+        bottom: 80rem;
+        right: 6%;
+        font-size: 20rem;
+    }
+}
+@media(min-width: 768px) {
+    .container .textContainer{
+        padding: 150rem 0;
+    }
+    .container .textContainer article{
+        line-height: 220%;
+        font-size: 24rem;
+    }
+    .container .textContainer p{
+        font-size: 24rem;
+    }
+    .container .textContainer a{
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        text-decoration: underline;
+        right: 6%;
+        bottom: 40rem;
+        font-size: 18rem;
+        display: block;
+    }
+}
+

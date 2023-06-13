@@ -1,0 +1,129 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16rem 50rem 16rem;
+}
+.container h2{
+    color: #868686;
+    margin: 10px 0 20px 0; 
+}
+.container .subContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    border-top: 4px solid #868686;
+    padding-top: 50px;
+}
+.container .subContainer .gallery{
+   width: 90vw;
+   height: 55vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   transition: 1s ease-in-out;
+}
+.container .subContainer .gallery img{
+    cursor: pointer;
+}
+.container .subContainer .gallery .item_1{
+    width: 45%;
+    height: 70%;
+    opacity: 0.6;
+    box-shadow: 8px 8px 20px 5px rgba(50, 50, 50, 0.7);
+    position: absolute;
+    z-index: 1;
+    transition: 1s ease-in-out;
+}
+.container .subContainer .gallery .item_2{
+    width: 100%;
+    height: 100%;
+    box-shadow: 8px 8px 20px 5px rgba(50, 50, 50, 0.7);
+    position: absolute;
+    z-index: 2;
+    transition: 1s ease-in-out;
+}
+.container .subContainer .gallery .item_3{
+    width: 30%;
+    height: 45%;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 1;
+    transition: 1s ease-in-out;
+}
+.container .subContainer .controls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    right: 80px;
+}
+.container .subContainer .controls button{
+    width: 90px;
+    padding: 8rem;
+    border: none;
+    height: 45px;
+    border: 2px solid #d5515e;
+    background: none;
+    color: #d5515e;
+    font-weight: 700;
+}
+.container .subContainer .controls button:hover{
+    background: #d5515e;
+    color: white;
+    transition: 0.7s;
+}
+@media(min-width: 768px) {
+    .container .subContainer .gallery{
+        width: 90vw;
+        height: 45vw;
+     }
+    .container .subContainer .gallery .item_1{
+        width: 45%;
+        height: 70%;
+        opacity: 0.6;
+        box-shadow: 8px 8px 20px 5px rgba(50, 50, 50, 0.7);
+        position: absolute;
+        left: 100rem;
+        z-index: 1;
+        transition: 1s ease-in-out;
+    }
+    .container .subContainer .gallery .item_2{
+        width: 70%;
+        height: 90%;
+        box-shadow: 8px 8px 20px 5px rgba(50, 50, 50, 0.7);
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        transition: 1s ease-in-out;
+    }
+    .container .subContainer .gallery .item_3{
+        width: 30%;
+        height: 45%;
+        opacity: 0.6;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        transition: 1s ease-in-out;
+    }
+}
+@media(min-width: 930px) {
+    .container .subContainer .gallery{
+        width: 900px;
+        height: 450px;
+    }
+}
+@media(min-width: 1200px) {
+    .container .subContainer{
+        flex-direction: row;
+    }
+    .container .subContainer .controls{
+        width: 20%;
+    }
+}

@@ -1,0 +1,28 @@
+@use './abstracts/' as *;
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+:root{
+    font-size: 6.25%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: $color-gray-900;
+}
+ol, ul {
+	list-style: none;
+}
+
+button{
+    cursor: pointer;
+}
