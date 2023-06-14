@@ -2,6 +2,12 @@ import styles from './styles.module.scss';
 import Sandwich from "../Sandwich";
 import { useContext } from "react";
 import { GlobalContext } from "@/providers/GlobalContext";
+import { Comforter_Brush } from '@next/font/google';
+
+const comfort = Comforter_Brush({
+    subsets: ['latin'],
+    weight: ['400'], 
+})
 
 export default function Header(){
     const { modalMobile, setModalMobile } = useContext(GlobalContext);
@@ -9,7 +15,7 @@ export default function Header(){
         <div className={!modalMobile ? styles.container : styles.modal}>
             <div className={styles.maxSize}>
                 <div className={styles.divName}>
-                    <h2>Odair Sobrinho</h2>
+                    <p className={comfort.className}>Odair Sobrinho</p>
                 </div>
                 <Sandwich />
                 <div className={modalMobile ? styles.divModal : styles.modalNone}>
