@@ -1,6 +1,5 @@
 import styles from './styles.module.scss';
 import Odair from '../../img/odair.png';
-//import Logo from '../../img/logo.png';
 import Image from 'next/image';
 
 export default function Description(){

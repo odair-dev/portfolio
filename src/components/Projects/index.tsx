@@ -1,5 +1,4 @@
 'use client';
-import Link from "next/link";
 import styles from './styles.module.scss';
 import Image from 'next/image';
 import Recipe from '../../img/receitas.jpeg';
@@ -25,7 +24,7 @@ export default function Projects(){
         window.open("https://react-entrega-s1-template-nu-kenzie-odair-dev.vercel.app/", "_blank");
     }
     function goBurguer(){
-        window.open("https://react-entrega-template-hamburgueria-da-kenzie-odair-dev.vercel.app/", "_blank");
+        window.open("https://burguer-five.vercel.app/", "_blank");
     }
 
     return(
@@ -43,8 +42,5 @@ export default function Projects(){
                 </div>
             </div>
         </div>
-        // <>
-        //     {/* <Link href={''}>Exemplo</Link> */}
-        // </>
     )
 }
