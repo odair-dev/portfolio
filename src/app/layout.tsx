@@ -5,8 +5,8 @@ import { GlobalProvider } from '@/providers/GlobalContext';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Odair Sobrinho | Portifólio',
-  description: 'Odair Sobrinho - Desenvolvedor Front End - Portifólio',
+  title: 'Odair Sobrinho | Portfólio',
+  description: 'Odair Sobrinho - Desenvolvedor Front End - Portfólio',
 }
 
 export default function RootLayout({

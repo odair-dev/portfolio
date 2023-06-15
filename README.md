@@ -1,4 +1,4 @@
-Portifólio Odair Rodrigues da Silva Sobrinho
+Portfólio Odair Rodrigues da Silva Sobrinho
 
 Aplicação desenvolvida em Next.JS e SCSS para apresentação pessoal;
 
