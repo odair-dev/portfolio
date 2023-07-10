@@ -12,6 +12,7 @@ export default function Technologies(){
         <div className={styles.container} id='techs'>
             <div className={styles.title}>
                 <h2>Tecnologias</h2>
+                <div className={styles.lineBase}></div>
             </div>
             <div className={styles.card} data-aos="fade-up" data-aos-duration="1500">
                 <p>HTML</p>
