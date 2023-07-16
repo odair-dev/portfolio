@@ -11,7 +11,7 @@ export default function Description(){
                 </div>
                 <div className={styles.divDescription}>
                     <div className={styles.title} data-aos="fade-left" data-aos-duration="1500">
-                        <h1>Desenvolvedor <span>Front End</span></h1>
+                        <h1>Desenvolvedor <span>Full Stack</span></h1>
                         <div className={styles.level}>
                             <p></p>
                         </div>
