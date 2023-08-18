@@ -8,6 +8,8 @@ import NextJS from '@/img/nextjs-13.svg';
 import PostgreSQL from '@/img/postgresql.svg';
 import ExpressJS from '@/img/express.svg';
 import NodeJS from '@/img/nodejs-1.svg';
+import Python from '@/img/python-4.svg';
+import Django from '@/img/django-community.svg';
 import Image from 'next/image';
 
 export default function Technologies(){
@@ -52,6 +54,14 @@ export default function Technologies(){
             <div className={styles.card} data-aos="fade-up" data-aos-duration="1500">
                 {/* <p>Express</p> */}
                 <Image src={ExpressJS} alt="Logotipo Express" />
+            </div>
+            <div className={styles.card} data-aos="fade-up" data-aos-duration="1500">
+                {/* <p>Express</p> */}
+                <Image src={Python} alt="Logotipo Python" />
+            </div>
+            <div className={styles.card} data-aos="fade-up" data-aos-duration="1500">
+                {/* <p>Express</p> */}
+                <Image src={Django} alt="Logotipo Django" />
             </div>
         </div>
     )
