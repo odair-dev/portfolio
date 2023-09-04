@@ -21,7 +21,7 @@ export default function Header(){
                 <div className={modalMobile ? styles.divModal : styles.modalNone}>
                     <ul>
                         <li>
-                            <a href="https://drive.google.com/file/d/1an--rJlDZGPmHB0Voszo-JQFuL43Odfx/view?usp=sharing" target="blank">Currículo</a>
+                            <a href="https://drive.google.com/file/d/1usdWxJLHmft-3xOARw9v7gkkt3tfA3y7/view?usp=sharing" target="blank">Currículo</a>
                         </li>
                         <li>
                             <a href="https://github.com/odair-dev" target="blank">Github</a>   
@@ -52,7 +52,7 @@ export default function Header(){
                         <div className={styles.divBars}></div>
                     </div>
                     <div className={styles.divFocus}>
-                        <a href="https://drive.google.com/file/d/1an--rJlDZGPmHB0Voszo-JQFuL43Odfx/view?usp=sharing" target="blank">Currículo</a>
+                        <a href="https://drive.google.com/file/d/1usdWxJLHmft-3xOARw9v7gkkt3tfA3y7/view?usp=sharing" target="blank">Currículo</a>
                         <div className={styles.divBars}></div>
                     </div>
                     <div className={styles.divFocus}>
