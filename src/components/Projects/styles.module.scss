@@ -1,3 +1,9 @@
+@keyframes animationTransition{
+    0%{transform: translateX(25px);}
+    100%{transform: translateX(0);}
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 .container{
     width: 100%;
     max-width: 1200px;
@@ -32,13 +38,37 @@
 .container .subContainer .gallery img{
     cursor: pointer;
 }
+.container .subContainer .gallery:hover{
+    .divLinks{
+        padding: 8px 4px;
+        z-index: 4;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+        animation: animationTransition 1s;
+        a{
+            background-color: lightcoral;
+            border-radius: 8px;
+            padding: 8px 16px;
+            color: white;
+            font-weight: 600;
+            margin: 8px;
+        }
+        a:hover{
+            background-color: rgb(200, 20, 20);
+            box-shadow: 0 5px 12px 1px rgba(150, 150, 150, 0.7);
+        }
+    }
+}
 .container .subContainer .gallery .item_1{
     width: 45%;
     height: 70%;
     opacity: 0.6;
     box-shadow: 8px 8px 20px 5px rgba(50, 50, 50, 0.7);
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     transition: 1s ease-in-out;
 }
 .container .subContainer .gallery .item_2{
@@ -46,7 +76,7 @@
     height: 100%;
     box-shadow: 8px 8px 20px 5px rgba(50, 50, 50, 0.7);
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     transition: 1s ease-in-out;
 }
 .container .subContainer .gallery .item_3{
