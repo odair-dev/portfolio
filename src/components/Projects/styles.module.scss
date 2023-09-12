@@ -40,25 +40,9 @@
 }
 .container .subContainer .gallery:hover{
     .divLinks{
-        padding: 8px 4px;
-        z-index: 4;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        right: 0;
-        bottom: 20px;
-        animation: animationTransition 1s;
+        display: none;
         a{
-            background-color: lightcoral;
-            border-radius: 8px;
-            padding: 8px 16px;
-            color: white;
-            font-weight: 600;
-            margin: 8px;
-        }
-        a:hover{
-            background-color: rgb(200, 20, 20);
-            box-shadow: 0 5px 12px 1px rgba(150, 150, 150, 0.7);
+            color: none;
         }
     }
 }
@@ -113,7 +97,31 @@
     .container .subContainer .gallery{
         width: 90vw;
         height: 45vw;
-     }
+    }
+    .container .subContainer .gallery:hover{
+        .divLinks{
+            padding: 8px 4px;
+            z-index: 4;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            right: 0;
+            bottom: 20px;
+            animation: animationTransition 1s;
+            a{
+                background-color: lightcoral;
+                border-radius: 8px;
+                padding: 8px 16px;
+                color: white;
+                font-weight: 600;
+                margin: 8px;
+            }
+            a:hover{
+                background-color: rgb(200, 20, 20);
+                box-shadow: 0 5px 12px 1px rgba(150, 150, 150, 0.7);
+            }
+        }
+    }
     .container .subContainer .gallery .item_1{
         width: 45%;
         height: 70%;
