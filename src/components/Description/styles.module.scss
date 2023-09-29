@@ -70,6 +70,7 @@
     text-align: right;
     color: $color-gray-0;
     font-size: 4vw;
+    display: none;
 }
 .container .maxSize .divDescription .title article{
     display: none;
@@ -117,5 +118,8 @@
 @media(min-width: 900px) {
     .container .maxSize{
         margin-top: 50px;
+    }
+    .container .maxSize .divDescription .title .level p{
+        display: block;
     }
 }

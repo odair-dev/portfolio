@@ -13,7 +13,7 @@ export default function Description(){
                     <div className={styles.title} data-aos="fade-left" data-aos-duration="1500">
                         <h1>Desenvolvedor <span>Full Stack</span></h1>
                         <div className={styles.level}>
-                            <p></p>
+                            <p>JUNIOR</p>
                         </div>
                         <article>
                             Certificado pela Kenzie Academy Brasil
