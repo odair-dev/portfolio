@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 import Sandwich from "../Sandwich";
 import { useContext } from "react";
 import { GlobalContext } from "@/providers/GlobalContext";
-import { Comforter_Brush } from '@next/font/google';
+import { Comforter_Brush } from "next/font/google";
 
 const comfort = Comforter_Brush({
     subsets: ['latin'],

@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
-import { Lato } from '@next/font/google';
-import { Comforter_Brush } from '@next/font/google';
+import { Lato } from "next/font/google";
+import { Comforter_Brush } from "next/font/google";
 
 const lato = Lato({
     subsets: ['latin'],
