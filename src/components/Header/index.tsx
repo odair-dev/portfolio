@@ -41,14 +41,14 @@ export default function Header() {
                 Linkedin
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://drive.google.com/file/d/1ofjvZLSOZwDePmFnh3jRCBnxzGcPn3Px/view?usp=sharing"
                 target="blank"
               >
                 Pitch Pessoal
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className={styles.divMenu}>
